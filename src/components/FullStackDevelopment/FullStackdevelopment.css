@@ -1,0 +1,18 @@
+.full-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.full-list{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px; */
+
+  flex-basis: calc(33.33% - 10px); /* To make sure three items fit on each row with some spacing */
+  margin-bottom: 20px; 
+
+}
